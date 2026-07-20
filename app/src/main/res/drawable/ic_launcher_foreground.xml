@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- The center logo is roughly 60% of the icon size -->
+    <group
+        android:translateX="54"
+        android:translateY="54"
+        android:scaleX="0.6"
+        android:scaleY="0.6">
+        <!-- Outer Hexagon Frame -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,-52 L46,-26.5 L46,26.5 L0,52 L-46,26.5 L-46,-26.5 Z M0,-47.5 L-42,24 L-42,24 L0,47.5 L42,24 L42,-24 Z" />
+
+        <!-- Inner Circuit Arms -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,-39C-1.66,39 -3,-37.66 -3,-36C-3,-34.34 -1.66,-33 0,-33C1.66,-33 3,-34.34 3,-36C3,-37.66 1.66,-39 0,-39ZM1,-36V-26L31,-9V9L16,18L14,15L28,7V-11L0,-27L-1,-27V-36H1Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,39C1.66,39 3,37.66 3,36C3,34.34 1.66,33 0,33C-1.66,33 -3,34.34 -3,36C-3,37.66 -1.66,39 0,39ZM-1,36V26L-31,9V-9L-16,-18L-14,-15L-28,-7V11L0,27L1,27V36H-1Z" />
+
+        <!-- Central Rings -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-15,-13A20,20 0,0 1,13 15L11,13A17,17 0,0 0,-13 -11Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M15,13A20,20 0,0 1,-14 -15L-11,-13A17,17 0,0 0,13 11Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-11,-9A14,14 0,0 1,9 11L7.5,9.5A12,12 0,0 0,-9.5 -7.5Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M11,9A14,14 0,0 1,-9 -11L-7.5,-9.5A12,12 0,0 0,9.5 7.5Z" />
+        <!-- Inner Dot -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,-6C-3.31,-6 -6,-3.31 -6,0C-6,3.31 -3.31,6 0,6C3.31,6 6,3.31 6,0C6,-3.31 3.31,-6 0,-6Z" />
+    </group>
+</vector>

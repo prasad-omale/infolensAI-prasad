@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178456145754",
+    "project_id": "infolensai-45d0c",
+    "storage_bucket": "infolensai-45d0c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178456145754:android:f17fa9687017b6a4e18d63",
+        "android_client_info": {
+          "package_name": "com.example.infolensai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178456145754-gdicn7iuqnti0ki2b1fcpbfpbg551oun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.infolensai",
+            "certificate_hash": "0d87a0654100ccf0e76c14508f207d593028527f"
+          }
+        },
+        {
+          "client_id": "178456145754-qdn4ir8jlhchdvr906nv3jqs8ekn8p8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrDs-r4rwvjq-BgJvCn5JPPDEpAAcR1aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178456145754-qdn4ir8jlhchdvr906nv3jqs8ekn8p8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

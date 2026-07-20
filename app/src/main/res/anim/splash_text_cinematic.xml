@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/decelerate_interpolator">
+
+    <!-- Fade in -->
+    <alpha
+        android:duration="600"
+        android:fromAlpha="0.0"
+        android:startOffset="200"
+        android:toAlpha="1.0" />
+
+    <!-- Move UP slightly towards the logo -->
+    <translate
+        android:duration="800"
+        android:fromYDelta="20%p"
+        android:startOffset="200"
+        android:toYDelta="0" />
+
+    <!-- Subtle scale -->
+    <scale
+        android:duration="800"
+        android:fromXScale="0.9"
+        android:fromYScale="0.9"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="200"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+</set>
